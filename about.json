@@ -1,9 +1,20 @@
 {
   "name": "BigBears.IO",
-  "about_url": "URL",
-  "license_url": "URL",
-  "assets": {
-  },
+  "about_url": "https://github.com/bigbearsio/discourse-bigbears-theme",
+  "license_url": "https://github.com/bigbearsio/discourse-bigbears-theme/blob/master/LICENSE",
+  "assets": {},
   "color_schemes": {
+    "BigBears.IO": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "51839b",
+      "quaternary": "b85e48",
+      "header_background": "333333",
+      "header_primary": "f3f3f3",
+      "highlight": "ecec70",
+      "danger": "b85e48",
+      "success": "518751",
+      "love": "fa6c8d"
+    }
   }
 }
