@@ -14,7 +14,7 @@ Discourse theme used in https://forums.bigbears.io/
    For more information, see the forum post
    [Discourse Theme CLI (console app to help you build themes)](https://meta.discourse.org/t/discourse-theme-cli-console-app-to-help-you-build-themes/82950)
 
-2. Fork this repository and clone
+2. **Fork** this repository and clone it to your computer:
 
    ```sh-session
    $ git clone https://github.com/<fork_username>/discourse-bigbears-theme
@@ -95,4 +95,8 @@ Discourse theme used in https://forums.bigbears.io/
       will be synchronized to Theme Creator automatically. For CSS files,
       changes will be applied on the web page automatically.
       
-6. Create Pull request of changes to https://github.com/bigbearsio/discourse-bigbears-theme
+6. Once you are satisfied with your change, **Commit** and **Push** your changes,
+   then create a **Pull Request** on this repository (https://github.com/bigbearsio/discourse-bigbears-theme)
+   so that we can review your changes.
+
+   Please add a screenshot of the changes to make it easier for us to review, thanks!
