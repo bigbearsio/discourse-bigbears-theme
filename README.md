@@ -9,15 +9,15 @@ Discourse theme used in https://forums.bigbears.io/
    1. Install Ruby.
 
    2. Install [discourse_theme](https://github.com/discourse/discourse_theme)
-      from RubyGems: `gem install discourse_theme`
+      from RubyGems: `gem install discourse_theme` (on macOS: `brew install ruby` and restart terminal first or use rvm)
 
    For more information, see the forum post
    [Discourse Theme CLI (console app to help you build themes)](https://meta.discourse.org/t/discourse-theme-cli-console-app-to-help-you-build-themes/82950)
 
-2. Clone this repository
+2. Fork this repository and clone
 
    ```sh-session
-   $ git clone https://github.com/bigbearsio/discourse-bigbears-theme
+   $ git clone https://github.com/<fork_username>/discourse-bigbears-theme
    ```
 
 3. Set up **Discourse Theme Creator** account.
@@ -35,7 +35,7 @@ Discourse theme used in https://forums.bigbears.io/
    5. Click **From the web** and enter the URL:
 
       ```
-      https://github.com/bigbearsio/discourse-bigbears-theme
+      https://github.com/<fork_username>/discourse-bigbears-theme
       ```
 
       Submit the form. This should bring you to a copy of **BigBears.IO** theme.
@@ -94,3 +94,5 @@ Discourse theme used in https://forums.bigbears.io/
       With the CLI tool running, you can change the theme files, and the theme
       will be synchronized to Theme Creator automatically. For CSS files,
       changes will be applied on the web page automatically.
+      
+6. Create Pull request of changes to https://github.com/bigbearsio/discourse-bigbears-theme
