@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.5
+    steps:
+      - checkout
+      - run:
+          name: Update theme!
+          command: |
+            if [ "$CIRCLE_BRANCH" = "master" ]
+            then
+              curl -X PUT https://forums.bigbears.io/admin/themes/6 -d api_key="$FORUM_API_KEY" -d "theme[remote_update]=true"
+            fi
