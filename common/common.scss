@@ -23,6 +23,13 @@ body {
   perspective: 1000px;
 }
 
+.post-retort__count {
+  color: #b3b3b3;
+  font-size: inherit;
+  font-weight: normal;
+  bottom: 0;
+}
+
 @keyframes shake {
   15%, 85% {
     transform: translate3d(-1px, 0, 0);
